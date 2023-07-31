@@ -1,0 +1,63 @@
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+}
+
+/* image */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  letter-spacing: 5px;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+
+.soup {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+.info-img {
+  width: 40%;
+  height: 20%;
+  position: relative;
+  margin-top: auto;
+  margin-top: 10px;
+  margin-left: 450px;
+  margin-bottom: 50px;
+}
+/* paragraph */
+p,
+ul,
+ol {
+  margin: 100px;
+  margin-right: 150px;
+}
+/*  تصميم الترتيب الغير مرقم و المرقمه*/
+
+ul.dashed {
+  list-style-type: "-";
+}
+
+ol.arch {
+  list-style-type: decimal;
+}
+
+ol.arch > li:before {
+  content: ")";
+  text-indent: -5px;
+}
